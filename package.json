@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "deploy": "gh-pages -d dist",
+    "dev": "nuxt dev -p 8000 --host",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "gh-pages": "^6.1.1",
+    "nuxt": "^4.3.1",
+    "sass": "^1.72.0"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "@vueuse/nuxt": "^14.2.1"
+  }
+}

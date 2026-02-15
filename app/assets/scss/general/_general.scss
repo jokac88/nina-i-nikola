@@ -1,0 +1,40 @@
+@use "typography" as *;
+@use "variables" as *;
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: $font-family-primary;
+  color: $color-primary;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+:focus {
+  outline: none;
+}
+
+#__nuxt {
+  display: flex;
+  flex: 1;
+}
+
+.flex-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}

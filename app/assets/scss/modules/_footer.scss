@@ -1,0 +1,17 @@
+.footer {
+  position: relative;
+  background-image: url('~/assets/img/footer.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__qr-code {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+
+    img {
+      width: 55px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use "../general" as *;
+
+.social-network-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: $color-secondary;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: $color-secondary-hover;
+  }
+
+  i {
+    font-size: 18px;
+    color: $color-white;
+  }
+}

@@ -1,0 +1,36 @@
+@use "sass:map";
+
+// Breakpoints
+$grid-values: (
+    xs: 360px,
+    sm: 768px,
+    md: 1024px,
+    lg: 1210px,
+    mlg: 1366px,
+    xl: 1680px,
+    xxl: 1920px
+);
+
+$grid-breakpoints: (
+    xs: 'min-width: #{map.get($grid-values, xs)}',
+    sm: 'min-width: #{map.get($grid-values, sm)}',
+    md: 'min-width: #{map.get($grid-values, md)}',
+    lg: 'min-width: #{map.get($grid-values, lg)}',
+    mlg: 'min-width: #{map.get($grid-values, mlg)}',
+    xl: 'min-width: #{map.get($grid-values, xl)}',
+    xxl: 'min-width: #{map.get($grid-values, xxl)}',
+
+    max-xs: 'max-width: #{map.get($grid-values, xs) - 1}',
+    max-sm: 'max-width: #{map.get($grid-values, sm) - 1}',
+    max-md: 'max-width: #{map.get($grid-values, md) - 1}',
+    max-lg: 'max-width: #{map.get($grid-values, lg) - 1}',
+    max-mlg: 'max-width: #{map.get($grid-values, mlg) - 1}',
+    max-xl: 'mimax-width: #{map.get($grid-values, xl) - 1}',
+    max-xxl: 'max-width: #{map.get($grid-values, xxl) - 1}',
+);
+
+@mixin target-mq($mq) {
+    @media (#{map.get($grid-breakpoints, $mq)}) {
+        @content;
+    }
+}

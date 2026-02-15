@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52e7f642-95b5-4da8-853d-f7d7b3566ede" name="Changes" comment="init project">
+      <change afterPath="$PROJECT_DIR$/.ai/mcp/mcp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fileColors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/fonts/LovelyGraceBG.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/fonts/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/header-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/hug.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/hug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/qr-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/story.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/timeline-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/timeline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_guest-name.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_radio-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_social-network-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_timeline-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_icons-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_back-to-top.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_countdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_story.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/BackToTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/Countdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/Form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/Story.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/common/Timeline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/elements/GuestFullName.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/elements/SocialNetworkCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/elements/TimelineCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/store/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/ivanjovkovic/PhpstormProjects/ana-i-ivan" value="2du1mHMOUgloMuuVwmIle9JnCgd" />
+      <entry key="_/Users/ivanjovkovic/PhpstormProjects/nina-i-nikola" value="39dqPWoIcYvNNJkiwJidl2UwRCA" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1710847427" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1710847424" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c5c95398-8c30-43ed-b31c-ff88e93af0b5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.9/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2du1mHMOUgloMuuVwmIle9JnCgd" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ivanjovkovic/PhpstormProjects/nina-i-nikola&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.generate.executor&quot;: &quot;Run&quot;,
+    &quot;npm.preview.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/scss/general" />
+      <recent name="$PROJECT_DIR$/app/assets/scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/assets/scss/modules" />
+      <recent name="$PROJECT_DIR$/app/assets/scss" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+      <recent name="$PROJECT_DIR$/app/assets/scss/elements" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.preview">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="generate" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="generate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="postinstall" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="postinstall" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="preview" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.30387.85" />
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.30387.85" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52e7f642-95b5-4da8-853d-f7d7b3566ede" name="Changes" comment="" />
+      <created>1710843306767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710843306767</updated>
+      <workItem from="1710843308053" duration="1855000" />
+      <workItem from="1710845173591" duration="44000" />
+      <workItem from="1710845308936" duration="1204000" />
+      <workItem from="1710846521619" duration="866000" />
+      <workItem from="1710847396184" duration="41000" />
+      <workItem from="1710847443458" duration="7208000" />
+      <workItem from="1770987758388" duration="2073000" />
+      <workItem from="1770995663556" duration="16978000" />
+      <workItem from="1771028702850" duration="597000" />
+      <workItem from="1771029354190" duration="892000" />
+      <workItem from="1771036273411" duration="778000" />
+      <workItem from="1771074904051" duration="770000" />
+      <workItem from="1771191726940" duration="719000" />
+      <workItem from="1771192460023" duration="6254000" />
+      <workItem from="1771199154220" duration="496000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add action deployment, update packages and file colors">
+      <option name="closed" value="true" />
+      <created>1710846229965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710846229965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add deploy action, update npm packages, .gitignore file and file colors">
+      <option name="closed" value="true" />
+      <created>1710847631331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710847631331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710847943540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710847943540</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710848106427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710848106427</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710848472707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710848472707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710848793342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710848793342</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710849904700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849904700</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710850513866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710850513866</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710851668497</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710851668497</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update deployment">
+      <option name="closed" value="true" />
+      <created>1710853784226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710853784226</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update .idea">
+      <option name="closed" value="true" />
+      <created>1710854373724</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854373724</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update nuxt to the lts version">
+      <option name="closed" value="true" />
+      <created>1771031035950</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771031035950</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update nuxt to the lts version">
+      <option name="closed" value="true" />
+      <created>1771031065297</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771031065297</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix">
+      <option name="closed" value="true" />
+      <created>1771035443950</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771035443950</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add action deployment, update packages and file colors" />
+    <MESSAGE value="Add deploy action, update npm packages, .gitignore file and file colors" />
+    <MESSAGE value="Update deployment" />
+    <MESSAGE value="Update .idea" />
+    <MESSAGE value="Update nuxt to the lts version" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

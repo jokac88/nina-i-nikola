@@ -1,0 +1,38 @@
+@use "../general" as *;
+
+.guest-name {
+  display: flex;
+  row-gap: 15px;
+  column-gap: 10px;
+  align-items: center;
+  word-break: break-all;
+
+  &__number,
+  &__text {
+    font-size: 20px;
+  }
+
+  &__text {
+    flex: 1;
+  }
+
+  &__remove-guest-button {
+    flex-basis: 40px;
+    height: 40px;
+    padding: 2px 0 0;
+    border: none;
+    border-radius: 5px;
+    color: $color-white;
+    background-color: $color-secondary;
+    transition:  background-color .3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-secondary-hover;
+    }
+
+    i {
+      font-size: 20px;
+    }
+  }
+}

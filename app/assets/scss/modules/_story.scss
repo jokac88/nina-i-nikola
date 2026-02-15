@@ -1,0 +1,79 @@
+@use "../general" as *;
+
+.story {
+
+  @include target-mq(xxl) {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 60px 15px;
+
+    @include target-mq(sm) {
+      flex-direction: row;
+      align-items: center;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    @include target-mq(md) {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+    @include target-mq(lg) {
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    @include target-mq(mlg) {
+      padding-right: 120px;
+      padding-left: 120px;
+    }
+
+    @include target-mq(xxl) {
+      flex: 0 1200px;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  &__image {
+
+    @include target-mq(sm) {
+      flex: 1;
+    }
+  }
+
+  &__text {
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.8;
+    letter-spacing: 1.5px;
+    text-align: center;
+
+    @include target-mq(sm) {
+      flex: 1.2;
+      font-size: 16px;
+    }
+
+    @include target-mq(md) {
+      font-size: 19px;
+    }
+
+    @include target-mq(mlg) {
+      flex: 1.3;
+      font-size: 21px;
+    }
+
+    @include target-mq(xxl) {
+      flex: 1.5;
+      font-size: 21px;
+    }
+  }
+}

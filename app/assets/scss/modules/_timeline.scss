@@ -1,0 +1,52 @@
+@use "../general" as *;
+
+.timeline {
+  background-image: url('~/assets/img/timeline-mobile.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include target-mq(sm) {
+    background-image: url('~/assets/img/timeline.jpg');
+  }
+
+  @include target-mq(xxl) {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-row-gap: 55px;
+    padding: 60px 15px;
+
+    @include target-mq(sm) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 75px 15px;
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+    @include target-mq(md) {
+      grid-column-gap: 30px;
+    }
+
+    @include target-mq(lg) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 15px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    @include target-mq(mlg) {
+      grid-row-gap: 30px;
+      padding: 50px 80px;
+    }
+
+    @include target-mq(xxl) {
+      min-width: 1200px;
+      column-gap: 30px;
+      padding: 60px 0;
+    }
+  }
+}

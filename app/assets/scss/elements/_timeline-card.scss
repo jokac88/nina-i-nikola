@@ -1,0 +1,131 @@
+@use "../general" as *;
+
+.timeline-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: $color-secondary;
+
+  @include target-mq(xxl) {
+    flex: 1;
+  }
+
+  &__time {
+    font-family: $font-family-secondary;
+    font-size: 36px;
+    line-height: 1;
+
+    @include target-mq(xxl) {
+      font-size: 40px;
+    }
+  }
+
+  &__event {
+    font-size: 20px;
+    text-transform: uppercase;
+
+    @include target-mq(sm) {
+      font-size: 21px;
+    }
+
+    @include target-mq(md) {
+      font-size: 22px;
+    }
+
+    @include target-mq(mlg) {
+      font-size: 23px;
+    }
+
+    @include target-mq(xxl) {
+      font-size: 24px;
+    }
+
+    &-icon {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 100px;
+
+      @include target-mq(sm) {
+        margin: 25px 0;
+        font-size: 110px;
+      }
+
+      @include target-mq(md) {
+        font-size: 120px;
+      }
+
+      @include target-mq(xxl) {
+        font-size: 130px;
+      }
+    }
+  }
+
+  &__location {
+
+    @include target-mq(sm) {
+      font-size: 18px;
+    }
+
+    @include target-mq(md) {
+      font-size: 19px;
+    }
+
+    @include target-mq(lg) {
+      font-size: 20px;
+    }
+
+    @include target-mq(mlg) {
+      font-size: 18px;
+    }
+  }
+
+  &__map-button {
+    position: relative;
+    padding-bottom: 3px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: $color-secondary;
+    text-decoration: none;
+
+    @include target-mq(sm) {
+      font-size: 16px;
+    }
+
+    @include target-mq(md) {
+      font-size: 18px;
+    }
+
+    @include target-mq(mlg) {
+      font-size: 16px;
+    }
+
+    i {
+      font-size: 24px;
+    }
+
+    &:hover {
+      &::after {
+        width: 0;
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      width: 100%;
+      background-color: $color-secondary;
+      transition: width .3s;
+    }
+  }
+
+  &__social-networks {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "header": {
+    "bride": "Nina",
+    "groom": "Nikola",
+    "quote": "Dragi naši, sa radošću vas pozivamo da zajedno proslavimo našu ljubav!",
+    "date": "31. maj 2026."
+  },
+  "timeline": [
+    {
+      "time": "12:00č",
+      "event": "Crkveno<br/>venčanje",
+      "icon": "icon-church",
+      "location": "<strong>Crkva Svetog Georgija u Šumaricama</strong>,<br/>Desankin venac,<br/>Kragujevac",
+      "locationUrl": "https://maps.app.goo.gl/wdtS8hiqA9Ur3MRE7"
+    },
+    {
+      "time": "16:00č",
+      "event": "Svečani<br/>ručak",
+      "icon": "icon-altar",
+      "location": "<strong>Hotel ”Ženeva Lux”</strong>,<br/>Slobode bb,<br/>Kragujevac",
+      "locationUrl": "https://maps.app.goo.gl/Yo4amQzbiCTbM9Wh9"
+    },
+    {
+      "time": "17:30č",
+      "event": "Ceremonijalno</br>venčanje",
+      "icon": "icon-rings",
+      "location": "<strong>Hotel ”Ženeva Lux”</strong>,<br/>Slobode bb,<br/>Kragujevac"
+    },
+    {
+      "time": "18:00č",
+      "event": "Početak<br/>žurke",
+      "icon": "icon-love-fireworks",
+      "location": "<strong>Hotel ”Ženeva Lux”</strong>,<br/>Slobode bb,<br/>Kragujevac",
+      "socialNetworks": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/zeneva_lux",
+          "icon": "icon-instagram"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/zenevaluxkg",
+          "icon": "icon-facebook"
+        }
+      ]
+    }
+  ],
+  "story": {
+    "text": "Ozbiljan korak pravimo,<br/>i veliku ljubav slavimo!<br/>Žurka veka se sprema,<br/>zato nemoj da te nema.<br/>Ka Ženevi Lux pođi,<br/>i na naše veselje dođi.<br/>Cipele udobne ponesi,<br/>pa plesni podijum raznesi.<br/>Svoje najbolje pokrete pokaži,<br/>jer opuštenost<br/>i dobro raspoloženje<br/>je ono što se traži!"
+  },
+  "form": {
+    "heading": "Potvrda dolaska",
+    "fullName": {
+      "question": "Ime i prezime",
+      "formEntry": "entry.1117261963",
+      "devFormEntry": "entry.1700203536",
+      "validationMessage": "Upišite Vaše ime i prezime"
+    },
+    "coming": {
+      "question": "Potvrđujem dolazak",
+      "values": ["DA", "NE"],
+      "formEntry": "entry.1716217797",
+      "devFormEntry": "entry.2094815888",
+      "validationMessage": "Potvrdite dolazak"
+    },
+    "guestsNumber": {
+      "question": "Broj gostiju koji dolazi sa mnom...",
+      "description": "Izaberite u padajućem meniju odgovarajući broj.",
+      "options": [0,1,2,3,4,5,6,7,8,9],
+      "formEntry": "entry.1556588741",
+      "devFormEntry": "entry.1931387819"
+    },
+    "guestsFullNames": {
+      "question": "Imena i prezimena gostiju koji dolaze sa mnom",
+      "description": "Dodajte ime i prezime jedno po jednog gosta.<br/>Decu mlađu od dve godine nije potrebno dodavati.",
+      "addGuestButton": "Dodajte gosta",
+      "formEntry": "entry.572556099",
+      "devFormEntry": "entry.388527298",
+      "validationMessage": "Broj gostiju nije identičan broju koji ste izabrali u padajućem meniju"
+    },
+    "note": {
+      "question": "Napomena",
+      "description": "Ukoliko imate bilo kakvu napomenu u vezi sa režimom ishrane ili Vašim vremenom dolaska, ostavite je ovde.",
+      "formEntry": "entry.1101559294",
+      "devFormEntry": "entry.730590923"
+    },
+    "submitButton": "Pošaljite",
+    "info": "Molimo Vas da nam potvrdite dolazak do 10.05.2026. godine",
+    "successfulMessage": "Hvala Vam na odgovoru 😊",
+    "formSubmitError": "Došlo je do greške u komunikaciji sa serverom, pokušajte ponovo."
+  },
+  "countdown": {
+    "text": "Sitno odbrojavamo do dana kada ćemo izgovoriti sudbonosno DA!"
+  }
+}
