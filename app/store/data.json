@@ -11,7 +11,7 @@
       "event": "Crkveno venčanje<br/>i krštenje",
       "icon": "icon-church",
       "location": "<strong>Crkva Svetog Georgija u Šumaricama</strong>,<br/>Desankin venac,<br/>Kragujevac",
-      "locationUrl": "https://maps.app.goo.gl/wdtS8hiqA9Ur3MRE7"
+      "locationUrl": "https://maps.app.goo.gl/ivEmuc17M5kGBD9S9"
     },
     {
       "time": "16:00č",
@@ -63,7 +63,7 @@
     },
     "guestsFullNames": {
       "question": "Imena i prezimena gostiju koji dolaze sa mnom",
-      "description": "Dodajte ime i prezime jedno po jednog gosta.<br/>Decu mlađu od dve godine nije potrebno dodavati.",
+      "description": "Dodajte ime i prezime jedno po jednog gosta.<br/>Decu mlađu od deset godina nije potrebno dodavati.",
       "addGuestButton": "Dodajte gosta",
       "entry": "388527298",
       "validationMessage": "Broj gostiju nije identičan broju koji ste izabrali u padajućem meniju"

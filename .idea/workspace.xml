@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52e7f642-95b5-4da8-853d-f7d7b3566ede" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/common/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/Form.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/store/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +248,8 @@
       <workItem from="1771583333082" duration="2160000" />
       <workItem from="1773949391328" duration="5277000" />
       <workItem from="1773957493166" duration="3753000" />
-      <workItem from="1773996553808" duration="7957000" />
+      <workItem from="1773996553808" duration="8735000" />
+      <workItem from="1774044534454" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="Add action deployment, update packages and file colors">
       <option name="closed" value="true" />
@@ -380,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774009661378</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <option name="closed" value="true" />
+      <created>1774012032024</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1774012032024</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
