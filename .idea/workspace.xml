@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e7f642-95b5-4da8-853d-f7d7b3566ede" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/nina-i-nikola.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/hug.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/hug.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/img/hug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scss/elements/_radio-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/elements/_radio-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scss/modules/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/modules/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/scss/modules/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/modules/_timeline.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/common/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/Form.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/common/Story.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/Story.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/store/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/data.json" afterDir="false" />
     </list>
@@ -138,7 +128,7 @@
       <recent name="$PROJECT_DIR$/app/assets/scss/elements" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -260,7 +250,7 @@
       <workItem from="1771583333082" duration="2160000" />
       <workItem from="1773949391328" duration="5277000" />
       <workItem from="1773957493166" duration="3753000" />
-      <workItem from="1773996553808" duration="5683000" />
+      <workItem from="1773996553808" duration="7957000" />
     </task>
     <task id="LOCAL-00001" summary="Add action deployment, update packages and file colors">
       <option name="closed" value="true" />
@@ -382,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771199673736</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <option name="closed" value="true" />
+      <created>1774009661378</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774009661378</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +417,8 @@
     <MESSAGE value="Update nuxt to the lts version" />
     <MESSAGE value="fix" />
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

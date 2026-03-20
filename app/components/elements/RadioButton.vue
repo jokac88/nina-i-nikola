@@ -4,7 +4,7 @@ const props = defineProps({
         type: String,
         default: ''
     },
-    entry: {
+    formEntry: {
         type: String,
         default: ''
     },
@@ -20,7 +20,7 @@ const props = defineProps({
         {{ value }}
         <input
           type="radio"
-          :name="checked && entry"
+          :name="checked && formEntry"
           @click="$emit('radio-button-clicked', value)"
           :value="value"
           :checked="checked"

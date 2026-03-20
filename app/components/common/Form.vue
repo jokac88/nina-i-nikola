@@ -181,7 +181,7 @@ onMounted(() => {
                         <RadioButton
                           v-for="value in formData.coming.values"
                           :value="value"
-                          :form-entry="formData.coming[entry]"
+                          :form-entry="`entry.${formData.coming.entry}`"
                           :class="{'radio-button--is-error': obj.isSubmitted && !obj.coming }"
                           :checked="obj.coming === value"
                           @radio-button-clicked="event => obj.coming = event"
