@@ -133,7 +133,6 @@
       .form__guests-names & {
         flex: 1;
         padding-right: 46px;
-        border-right: none;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
       }
@@ -163,22 +162,29 @@
     .form__select {
       position: relative;
       width: 50%;
+      background-color: $color-white;
+      border-radius: 5px;
+
+      select {
+        position: relative;
+        height: 41px;
+        line-height: 1.2;
+        font-weight: 500;
+        background-color: transparent;
+        cursor: pointer;
+        z-index: 1;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        transition: all .3s;
+      }
 
       i {
         position: absolute;
-        top: 12px;
+        top: 11px;
         right: 10px;
-        color: $color-secondary
+        color: $color-secondary;
+        z-index: 0;
       }
-    }
-
-    select {
-      background-color: $color-white;
-      font-weight: 500;
-      cursor: pointer;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      transition: all .3s;
     }
   }
 

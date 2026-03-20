@@ -13,7 +13,7 @@ const props = defineProps({
     <section class="story">
         <div class="story__wrapper">
             <div class="story__image">
-                <img src="@/assets/img/hug.jpg" alt="@/assets/img/hug.jpg"/>
+                <img src="@/assets/img/hug.webp" alt="@/assets/img/hug.webp"/>
             </div>
             <div v-html="storyData.text" class="story__text"/>
         </div>

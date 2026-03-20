@@ -24,6 +24,10 @@
 
       & ~ .checkmark {
         background-color: $color-secondary-hover;
+
+        .circle {
+          opacity: 100;
+        }
       }
     }
   }
@@ -34,22 +38,20 @@
     left: 0;
     height: 25px;
     width: 25px;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: $color-light-gray;
     border-radius: 50%;
     transition: background-color .3s;
 
-    &:after {
-      content: "";
-      position: absolute;
-      display: none;
-      top: 9px;
-      left: 9px;
+    .circle {
+      opacity: 0;
       width: 8px;
       height: 8px;
       border-radius: 50%;
       background-color: $color-white;
+      transition: opacity .3s;
     }
   }
 
@@ -61,8 +63,8 @@
       & ~ .checkmark {
         background-color: $color-secondary;
 
-        &:after {
-          display: block;
+        .circle {
+          opacity: 100;
         }
       }
     }

@@ -4,74 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e7f642-95b5-4da8-853d-f7d7b3566ede" name="Changes" comment="init project">
-      <change afterPath="$PROJECT_DIR$/.ai/mcp/mcp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileColors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/LovelyGraceBG.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/selection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/header-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/hug.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/hug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/qr-code.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/story.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/timeline-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/img/timeline.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_guest-name.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_radio-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_social-network-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/_timeline-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/elements/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_icons-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/general/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_back-to-top.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_countdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_story.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/_timeline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/scss/modules/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/BackToTop.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/Countdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/Form.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/Header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/Story.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/common/Timeline.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/elements/GuestFullName.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/elements/SocialNetworkCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/elements/TimelineCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/store/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="52e7f642-95b5-4da8-853d-f7d7b3566ede" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nina-i-nikola.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/img/hug.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/img/hug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/img/hug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/scss/elements/_radio-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/elements/_radio-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/scss/modules/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/modules/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/scss/modules/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/scss/modules/_timeline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/common/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/Form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/common/Story.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/Story.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/elements/RadioButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/store/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/store/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +43,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -123,8 +73,14 @@
     </option>
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="c5c95398-8c30-43ed-b31c-ff88e93af0b5" />
+    <option name="defaultAccountId" value="3cc5901b-4b48-41aa-8f1e-69ce33cc5dc0" />
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jokac88/nina-i-nikola.git&quot;,
+    &quot;accountId&quot;: &quot;3cc5901b-4b48-41aa-8f1e-69ce33cc5dc0&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -182,7 +138,7 @@
       <recent name="$PROJECT_DIR$/app/assets/scss/elements" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.preview">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -263,8 +219,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.30387.85" />
-        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.30387.85" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.32098.40" />
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.32098.40" />
       </set>
     </attachedChunks>
   </component>
@@ -290,7 +246,21 @@
       <workItem from="1771074904051" duration="770000" />
       <workItem from="1771191726940" duration="719000" />
       <workItem from="1771192460023" duration="6254000" />
-      <workItem from="1771199154220" duration="496000" />
+      <workItem from="1771199154220" duration="1738000" />
+      <workItem from="1771521610643" duration="822000" />
+      <workItem from="1771523290219" duration="434000" />
+      <workItem from="1771523737074" duration="852000" />
+      <workItem from="1771525918352" duration="105000" />
+      <workItem from="1771526034574" duration="141000" />
+      <workItem from="1771526189632" duration="881000" />
+      <workItem from="1771527086925" duration="298000" />
+      <workItem from="1771527393466" duration="46000" />
+      <workItem from="1771533105186" duration="1775000" />
+      <workItem from="1771583156846" duration="37000" />
+      <workItem from="1771583333082" duration="2160000" />
+      <workItem from="1773949391328" duration="5277000" />
+      <workItem from="1773957493166" duration="3753000" />
+      <workItem from="1773996553808" duration="5683000" />
     </task>
     <task id="LOCAL-00001" summary="Add action deployment, update packages and file colors">
       <option name="closed" value="true" />
@@ -404,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771035443950</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="init project">
+      <option name="closed" value="true" />
+      <created>1771199673736</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771199673736</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
